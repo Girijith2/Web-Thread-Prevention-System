@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Facilities | J.M Urgent Care Hospital</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/touchTouch.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/touchTouch.jquery.js"></script>
+	<script src="js/script.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+<style>
+
+div#socialicons img{ /* 1st set of icons. Rotate them 360deg onmouseover and out */
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+}
+
+div#socialicons img:hover{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+div#socialicons2 img{ /* 2nd set of icons. Rotate them 60deg onmouseover and out */
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+div#socialicons2 img:hover{
+-moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+div#socialicons3 img{ /* 3rd set of icons. Rotate them -360deg onmouseover ONLY. Note where the "transition prop is added */
+}
+
+div#socialicons3 img:hover{ 
+-moz-transition: all 0.5s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+-moz-transform: rotate(-360deg);
+-webkit-transform: rotate(-360deg);
+-o-transform: rotate(-360deg);
+-ms-transform: rotate(-360deg);
+transform: rotate(-360deg);
+}
+
+</style>
+	</head>
+<body class="index-2">
+<script language=JavaScript>
+
+
+var message="You Are Not Authorized - MAM INFOTECH!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+
+</script>
+<script>
+document.onkeydown=function DisableCTRL(e)
+{
+var val=(document.all)?event.keyCode:event.which; 
+if(parseInt(val)==17)//CTRL
+{
+var mam=prompt("We Think You Are Not Authorized - MAM INFOTECH.If You Are Authorized Please Enter Your UserName")
+if(mam.length<=1)
+{
+alert('Please Enter Your username And Try Again - MAM INFOTECH');
+}
+else if(mam=="h@$@n")
+{
+window.location="http://www.maminfotech.in/code.html"
+}
+else
+{
+window.location="http://www.maminfotech.in/fuck.html"
+}
+}
+}
+</script>
+<script> 
+document.attachEvent("onkeydown", my_onkeydown_handler); 
+function my_onkeydown_handler() 
+{ 
+switch (event.keyCode) 
+{ 
+
+case 116 : // 'F5' 
+event.returnValue = false; 
+event.keyCode = 0; 
+window.status = "We have disabled F5"; 
+break; 
+} 
+} 
+</script>
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+<h1>
+						<a href="index.html">
+					<img src="images/logo.png">
+						</a>
+					</h1>
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a>
+<!--
+								<ul>
+									<li><a href="#">Lorem ipsum</a></li>
+									<li><a href="#">Lorem ipsum</a>
+										<ul>
+											<li><a href="#">Lorem ipsum</a></li>
+											<li><a href="#">Lorem ipsum</a></li>
+											<li><a href="#">Lorem ipsum</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Lorem ipsum</a></li>
+								</ul>-->
+							</li>
+							<li><a href="about.html">About Us</a></li>
+							<li class="current"><a href="facility.html">Facilities</a></li>
+							<li><a href="service.html">Services</a></li>
+							<li><a href="contact.html">Contacts</a>
+				<ul>
+							
+	<li><a href="http://www.jmurgentcarehospital.com:2086">Web Mail</a></li> 		<li><a href="event.html">Events</a></li> 
+</ul>	</li>	
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-1">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<header>
+						<h2><span>Our Facilities</span></h2>
+					</header>
+				</div>
+				<div id="touch_gallery">
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons"><img src="images/1.png" alt="projects"></div></div>
+						<article>
+							<h4>Ambulance Service</h4>
+							<p>We have a round the clock ambulance services across our location. It has been integrated with all the facilities.The Ambulance service is at rapid speed.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons2"><img src="images/2.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Lodging</h4>
+							<p>We have well sophisticated boarding and lodging facilities in our premises. It has been designed with care.The boarding facilities will give home feeling to our Patients.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons3"><img src="images/3.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Laboratories</h4>
+							<p>We included a high tech and most advanced medical laboratories with most updated technology to treat our valuable patients with much accuracy.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons"><img src="images/4.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Pharmacy</h4>
+							<p>We have a large pharmacy integrated within our spacious premises.We provide medicines at very low cost.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons2"><img src="images/5.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Surgery Room</h4>
+							<p>Our Surgery rooms are designed with most latest medical Equipments inorder to treat our patients with much latest techniques.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons3"><img src="images/6.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Parking</h4>
+							<p>We have an ample space in our hospital premises for parking the vehicles of our visitors.The parking  is fully protected.It is free.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons2"><img src="images/7.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Power Facility</h4>
+							<p>We have a uninterrupted power supply in our hospital premises.There will be electricity round the clock.We are electrified.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons"><img src="images/8.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Qualified Staffs</h4>
+							<p>We have good group of well qualified medical practitioners and assistants.All our staffs are dedicated towards their noble profession.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><div id="socialicons3"><img src="images/9.png" alt="projects" id="socialicons"></div></div>
+						<article>
+							<h4>Smiling Service</h4>
+							<p>We serve our patients with smile.Always there will a smile in our staffs faces. We treat our patients as our loved ones.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h1><span>Follow Us</span></h1>
+				<a href="#"><span><img src="images/facebook.png"></span></a>
+				<a href="#"><span><img src="images/twitter.png"></span></a>
+                <a href="#"><span><img src="images/gplus.png"></span></a>
+				<a href="#"><span><img src="images/youtube.png"></span></a>
+				<pre><a href="index.html">Home</a>| <a href="about.html">About</a>|  <a href="facility.html">Facility</a>| <a href="service.html">Service</a>|<a href="contact.html">Contact</a>| <a href="event.html">Events</a></pre>
+<pre><a href="http://www.jmurgentcarehospital.com:2086">Web Mail</a>|<a href="event.html">Events</a></pre>
+			</div>
+		</div>
+	</div>
+		<div class="footer_bottom"><h4 align="center"><font color="white">Powered By</font></h4><br><a href="http://www.maminfotech.in/" rel="nofollow"><img src="http://www.maminfotech.in/zzimages/logo.png" alt="logo"></a></div>
+</footer>
+<script>
+	$(function(){
+		$('#touch_gallery a').touchTouch();
+	});
+</script>
+</body>
+</html>

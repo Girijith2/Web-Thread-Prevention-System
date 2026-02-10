@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Add Compliant</title>
+	
+<meta charset="utf-8"> <meta
+name="description" content="J.M Urgent Care Hospital is  a Super Specialty Hospital which is mainly dedicated to emergency medical treatment for those who are in need of that.We have been in the field of healthcare for more than three decades. We offer a world  class medical care."> <meta name="keywords"
+content="J.M Urgen Care Hospital jm hospital jmurgentcarehospital Kinathukadavu hospitals jmuch kinathhukadavahospitals emergency medical care firstaid urgentcare orthopedic"><meta
+name="description" content="J.M Urgen Care Hospital jm hospital jmurgentcarehospital Kinathukadavu hospitals jmuch kinathhukadavahospitals emergency medical care firstaid urgentcare orthopedic"> <meta
+name="Category" content="J.M Urgen Care Hospital jm hospital jmurgentcarehospital Kinathukadavu hospitals jmuch kinathhukadavahospitals emergency medical care firstaid urgentcare orthopedic"> <meta name="jmuch"
+content="index,follow"> <base target="_blank">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/camera.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/camera.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/script.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+    <style type="text/css">
+<!--
+#sponsorAdDiv {position:absolute; height:1; width:1px; top:0; left:0;}
+-->
+</style>
+
+<script type="text/javascript">
+
+/******************************************
+* DHTML Ad Box (By Matt Gabbert at http://www.nolag.com)
+* Visit http://www.dynamicdrive.com/ for full script
+* This notice must stay intact for use
+******************************************/
+
+adTime=5;  // seconds ad reminder is shown
+chanceAd=1; // ad will be shown 1 in X times (put 1 for everytime)
+
+var ns=(document.layers);
+var ie=(document.all);
+var w3=(document.getElementById && !ie);
+var calunit=ns? "" : "px"
+adCount=0;
+function initAd(){
+	if(!ns && !ie && !w3) return;
+	if(ie)		adDiv=eval('document.all.sponsorAdDiv.style');
+	else if(ns)	adDiv=eval('document.layers["sponsorAdDiv"]');
+	else if(w3)	adDiv=eval('document.getElementById("sponsorAdDiv").style');
+	randAd=Math.ceil(Math.random()*chanceAd);
+        if (ie||w3)
+        adDiv.visibility="visible";
+        else
+        adDiv.visibility ="show";
+	if(randAd==1) showAd();
+}
+function showAd(){
+if(adCount<adTime*10){adCount+=1;
+	if (ie){documentWidth  =truebody().offsetWidth/2+truebody().scrollLeft-20;
+	documentHeight =truebody().offsetHeight/2+truebody().scrollTop-20;}	
+	else if (ns){documentWidth=window.innerWidth/2+window.pageXOffset-20;
+	documentHeight=window.innerHeight/2+window.pageYOffset-20;} 
+	else if (w3){documentWidth=self.innerWidth/2+window.pageXOffset-20;
+	documentHeight=self.innerHeight/2+window.pageYOffset-20;} 
+	adDiv.left=documentWidth-200+calunit;adDiv.top =documentHeight-200+calunit;
+	setTimeout("showAd()",100);}else closeAd();
+}
+function closeAd(){
+if (ie||w3)
+adDiv.display="none";
+else
+adDiv.visibility ="hide";
+}
+
+function truebody(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+onload=initAd;
+//End-->
+</script>
+
+<script>
+//"Accept terms" form submission- By Dynamic Drive
+//For full source code and more DHTML scripts, visit http://www.dynamicdrive.com
+//This credit MUST stay intact for use
+var checkobj
+function agreesubmit(el){
+checkobj=el
+if (document.all||document.getElementById){
+for (i=0;i<checkobj.form.length;i++){  //hunt down submit button
+var tempobj=checkobj.form.elements[i]
+if(tempobj.type.toLowerCase()=="submit")
+tempobj.disabled=!checkobj.checked
+}
+}
+}
+function defaultagree(el){
+if (!document.all&&!document.getElementById){
+if (window.checkobj&&checkobj.checked)
+return true
+else{
+alert("Please read/accept terms to submit form")
+return false
+}
+}
+}
+</script>
+	</head>
+<body class="index">
+
+<script>
+
+function valid(){
+	// Make quick references to our fields
+	var name = document.getElementById('name');
+	//var pa = document.getElementById('pa');
+	//var pea = document.getElementById('pea');
+	var mno = document.getElementById('mno');
+	//var place = document.getElementById('place');
+	//var state = document.getElementById('state');
+	//var username = document.getElementById('username');
+	var em = document.getElementById('em');
+	
+	// Check each input in the order that it appears in the form!
+	if(isAlphabet(name, "Please enter only letters for your name")){
+		if(isAlphanumeric(pa, "Numbers and Letters Only for Address")){
+			if(isAlphanumeric(pea, "Numbers and Letters Only for Address")){
+			if(isNumeric(place, "Please enter a valid pincode code")){
+				if(isNumeric(mno, "Please enter a valid mobile No")){
+				if(madeSelection(state, "Please Choose a State")){
+					if(lengthRestriction(username, 6, 8)){
+						if(emailValidator(em, "Please enter a valid email address")){
+							return true;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+		}
+	return false;
+	
+}
+
+function notEmpty(elem, helperMsg){
+	if(elem.value.length == 0){
+		alert(helperMsg);
+		elem.focus(); // set the focus to this input
+		return false;
+	}
+	return true;
+}
+
+function isNumeric(elem, helperMsg){
+	var numericExpression = /^[0-9]+$/;
+	if(elem.value.match(numericExpression)){
+		return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+}
+
+function isAlphabet(elem, helperMsg){
+	var alphaExp = /^[a-zA-Z]+$/;
+	if(elem.value.match(alphaExp)){
+		return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+}
+
+function isAlphanumeric(elem, helperMsg){
+	var alphaExp = /^[0-9a-zA-Z]+$/;
+	if(elem.value.match(alphaExp)){
+		return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+}
+
+function lengthRestriction(elem, min, max){
+	var uInput = elem.value;
+	if(uInput.length >= min && uInput.length <= max){
+		return true;
+	}else{
+		alert("Please enter between " +min+ " and " +max+ " characters");
+		elem.focus();
+		return false;
+	}
+}
+
+function madeSelection(elem, helperMsg){
+	if(elem.value == "Please Choose"){
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}else{
+		return true;
+	}
+}
+
+function emailValidator(elem, helperMsg){
+	var emailExp = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+	if(elem.value.match(emailExp)){
+		return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+}
+}
+</script>
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<!--<h1><a href="index.html">Build-Up</a><span>your advertising agency</span></h1>-->
+<h1>
+						<a href="index.html">
+					<img src="images/logo.png">
+						</a>
+					</h1>
+					<nav>
+						<ul class="sf-menu">
+							<li class="current"><a href="index.html">Home</a>
+						<!--		<ul>
+									<li><a href="#">Lorem ipsum</a></li>
+									<li><a href="#">Lorem ipsum</a>
+										<ul>
+											<li><a href="#">Lorem ipsum</a></li>
+											<li><a href="#">Lorem ipsum</a></li>
+											<li><a href="#">Lorem ipsum</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Lorem ipsum</a></li>
+								</ul>-->
+							</li>
+							<li><a href="#">Public</a>
+                              <ul>
+							
+	<li><a href="patient.html">Add Public</a></li> 	<li><a href="http:\\www.maminfotech.in\project center\webthreat\view public.php">View Public</a></li>	
+    
+   
+						</ul>
+                            </li>
+							<li><a href="#">Company</a>
+                            <ul>
+							
+		<li><a href="patients.html">Add Company</a></li>	<li><a href="http:\\www.maminfotech.in\project center\webthreat\view company.php">View Company </a></li> 
+						</ul>
+                            </li>
+                            
+                            <li><a href="scan.html">Scan</a>
+                           
+                            </li>
+							<li><a href="#">Action</a>
+                            <ul>
+							
+	<li><a href="doctor add.html">Add Compliant </a></li> 	<li><a href="http:\\www.maminfotech.in\project center\webthreat\view compliant.php"">Complaint Report</a></li><li><a href="http:\\www.maminfotech.in\project center\webthreat\view company.php">View Compliant</a></li> 
+						</ul>
+                            </li>
+                          
+							
+				  <li><a href="#">Report</a>
+                <ul>
+							
+	<li><a href="http:\\www.maminfotech.in\project center\webthreat\view public.php">Public Report</a></li> 	<li><a href="http:\\www.maminfotech.in\project center\webthreat\view compliant.php"">Complaint Report</a></li><li><a href="http:\\www.maminfotech.in\project center\webthreat\view company.php">Company Report</a></li> 
+						</ul></li>
+					</nav>
+                    			</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-1">
+		<div class="camera_container">
+        <br><br>
+ <h1 align="center"><strong><font color="#FF0000">Compliant Register</font></strong> </h1>
+ <form id="form1" name="p" method="post" action="http:\\www.maminfotech.in\project center\webthreat\compliantmy.php" onSubmit="return valid();return defaultagree(this)">
+   <table width="1100" border="1" align="center">
+     <tr>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">Name</span></div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="foliono" size="50" required/>
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">Company Name</span></div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="name" size="50" id="name" required/>
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center">Mobile No</div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="ron" size="50" required />
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center">Compliant Website</div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="mno" size="50" id="mno" required />
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">E-Mail ID</span></div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="em" size="50" id="em" required/>
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">Present Address</span></div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <textarea rows="8" cols="50" name="pa"  required></textarea>
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">Permanent Address</span></div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <textarea rows="8" cols="50" name="pea"  required></textarea>
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center">Compliant DNS</div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="place" size="50" required/>
+    </span></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">Date of Finding</span></div></td>
+    <td bgcolor="#99FFCC"><div align="center"><span class="style2">
+      <input type="text" name="date" size="50" required/>
+    </span></div></td>
+  </tr>
+</table>
+<p align="center" class="style2">&nbsp;</p>
+<p align="left" class="style2"></p>
+<p align="center">
+    
+<input name="agreecheck" type="checkbox" onClick="agreesubmit(this)">
+<b>I Assure That Above Furnished Details Are Correct.</b><br>
+<input type="submit" name="Submit" value="Submit" disabled>
+<input type="reset" name="Submit2" value="Reset" />
+<script>
+//change two names below to your form's names
+document.forms.p.agreecheck.checked=false
+</script>
+       
+            
+
+<label></label>
+      </form>
+			
+	  </div>
+	</div>
+	
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h1>
+				  <script>
+	$(document).ready(function() { 
+			if ($('html').hasClass('desktop')) {
+				$.stellar({
+					horizontalScrolling: false,
+					verticalOffset: 20,
+					resposive: true,
+					hideDistantElements: true,
+				});
+			}
+		});
+                  </script>
+                </h1>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
